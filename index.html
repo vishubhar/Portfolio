@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vishal Bhardwaj || Front-End Devloper</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" type="x-icon" href="images/icon.png">
+    <script src="https://kit.fontawesome.com/499e2dbf32.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.jpeg " class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+
+            </nav>
+
+            <div class="header-text">
+                <h1>Hi, I'm <span>Vishal Bhardwaj.</span></h1>
+                <p>Student & Front-End Developer.</p>
+                <!-- <p>This is My Portfolio.</p> -->
+
+            </div>
+        </div>
+    </div>
+
+<!-- ----------ABOUT ---------------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col1">
+                    <img src="images/vishu.jpg">
+                </div>
+                <div class="about-col2">
+                    <h1 class="Subtitle"> ABOUT ME </h1>
+                    <p> <br> My name is Vishal Bhardwaj & I'm a resident of Ghaziabad,Uttar Pradesh. currently I'm an 4th year student pursuing Bachelor of Technology in Computer Science and Engineering(CSE). <br> 
+                    An individual who always seeks for new opportunities and accept challanges for self development.
+                        <br> My Field  Of specialization is Front-End Web Development. I Have constructed 3-4 Sucessful Projects till now and ready to work with the same enthusiasm.</p>
+                    <div class="tab-title">
+                        <p class="tab-links active-link" onclick="opentab('Education')">Education</p>
+                        <p class="tab-links"onclick="opentab('Skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+                    </div>    
+                    <div class="tab-contents active-tab" id="Education">
+                        <ul>
+                            <li><span>IMS ENGINEEERING COLLEGE</span> <br> Bachelor of Technology<br> Computer Science and Engineering <br>Ongoing</li>
+                            <li><span>KENDRIYA VIDYALAYA</span> <br> High School <br> PCM with CS <br> 2018-2019</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Skills">
+                        <ul>
+                            <li>Web Development</li>
+                            <li>Git & Github</li>
+                            <li>Database Management</li>
+                            <li>Object Oriented Programming</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Experience">
+                        <ul>
+                            <li><span>Web Development Intern</span> <BR>During this internship I’ve worked on technologies like JavaScript & ReactJS.</BR></li>
+                            <li><span>Mind Optimizers</span> <BR>Sucessfully organised several Events and guided students to grow their Skills</BR></li>
+                            <li><span>Personal Experience</span> <BR> Created Some personal Projects for Self Improvement </BR></li>
+                        </ul>
+                    </div>
+                </div>
+                <a href="Vishal Resume.pdf" class="btn1">Download CV</a>
+
+
+            </div>
+        </div>
+    </div>
+
+<!-- -----------Projects------------- -->
+<div id="projects">
+    <div class="container">
+        <h1 class="sub-title">  MY PROJECTS </h1>
+        <div class="Work-list">
+            <div class="Work">
+                <img src="images/CWIMG1.jpg">
+                <div class="layer">
+                    <h3>College Website</h3>
+                    <p>The College Website is built with HTMl & CSS <br> &
+                    is A prototype of Actual College Website</p>
+                    <a href="https://relaxed-figolla-a2623d.netlify.app/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="Work">
+                <img src="images/CWIMG2.jpeg">
+                <div class="layer">
+                    <h3>To-Do List</h3>
+                    <p>To-Do-List is an JavaScript based API. It has a local storage in order to store your daily life tasks.</p>
+                    <a href="https://phenomenal-creponne-8a7ec2.netlify.app/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="Work">
+                <img src="images/CWIMG3.jpeg">
+                <div class="layer">
+                    <h3>Blockchain</h3>
+                    <p>Currently Working on this Project Using JavaScript</p>
+                    <a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <!-- <a href="#" class="btn">See More</a> -->
+    </div>
+</div>
+
+<!-- --------Contact ------------ -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="subtitle">CONTACT ME</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>Vishubhardwaj1922@gmail.com</p>
+                <p> <i class="fa-solid fa-mobile-screen-button"></i>+91-8373930017</p>
+                <div class="icons">
+                    <a href="https://www.linkedin.com/in/vishal-bhardwaj-85b41a155"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/vishubhar"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://twitter.com/Pandatvishu"><i class="fa-brands fa-square-twitter"></i></a>
+                    <a href="https://www.instagram.com/its_vishu.bhardwaj/"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+                <a href="Vishal Resume.pdf" class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required >
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p> Copyright Ⓒ Vishal. <br> THANK YOU </p>
+    </div>
+</div>
+
+
+
+
+<!-- -------java script ----- -->
+
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks ){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link")
+        document.getElementById(tabname).classList.add("active-tab")
+}
+</script>
+
+<script>
+var sidemenu = document.getElementById("sidemenu");
+    function openmenu() {
+        sidemenu.style.right = "0";
+    }
+    function closemenu() {
+        sidemenu.style.right = "-120px";
+    } 
+</script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbwNsnjuFuI1hwc2MojKFjrMu2DA2KczpYahr3rRVhRN9UkR_zdhbe7DXERcOfCehtOBmw/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent Sucessfully"
+            setTimeout(function(){
+                msg.innerHTML=""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
