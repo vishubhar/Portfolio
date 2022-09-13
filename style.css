@@ -113,12 +113,13 @@ nav ul li a:hover::after{
 }
 .Subtitle{
     font-weight: 780;
-    font-size: 40px;
+    font-size: 60px;
     color: #ffffff;
     position: relative;
     display: flex;
 
 }
+
 .Subtitle::after{
     content: '';
     width: 25.5%;
@@ -443,15 +444,16 @@ nav .fa-solid{
     
     .about-col1, .about-col2{
         flex-basis: 100%;
+        margin-top: 0px;
     }
     .about-col1{
-        margin-bottom: 30px;
         margin-bottom: 3px;
     }
     .about-col1 img{
         width: 120px;
         border-radius: 20px;
         margin-bottom: 0px;
+        margin-left: 0px;
     }
     .about-col2{
         font-size: 15px;
@@ -463,8 +465,9 @@ nav .fa-solid{
     }
     
     .btn1{
-        padding: 12px;
-        margin-top: 25px;
+        padding: 13px;
+        margin-top: 50px;
+        margin-left: 32%;
     }
     .btn{
         padding: 12px;
