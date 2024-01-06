@@ -205,13 +205,14 @@ nav ul li a:hover::after{
 .Work-list{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(110px,320px));
-    grid-gap: 80px;
+    grid-gap: 50px;
     justify-content: center;
     margin-top: 50px;
-    margin-bottom: 150px;
+    margin-bottom: 50px;
 }
 
 .Work{
+    height: 80%;
     border-radius: 10px;
     position: relative;
     overflow: hidden;
