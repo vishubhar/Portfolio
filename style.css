@@ -212,7 +212,7 @@ nav ul li a:hover::after{
 }
 
 .Work{
-    height: 80%;
+    height: 450px;
     border-radius: 10px;
     position: relative;
     overflow: hidden;
